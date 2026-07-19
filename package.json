@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "OmniRoute AI gateway - Belmo.io deployment",
   "scripts": {
-    "start": "omniroute --port $PORT"
+    "start": "mkdir -p /tmp/.omniroute && HOME=/tmp omniroute --port $PORT"
   },
   "dependencies": {
     "omniroute": "^3.8.0"
