@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "OmniRoute AI gateway - Belmo.io deployment",
   "scripts": {
-    "start": "npx --yes omniroute@latest --port $PORT"
+    "start": "omniroute --port $PORT"
+  },
+  "dependencies": {
+    "omniroute": "^3.8.0"
   },
   "engines": {
     "node": ">=22.22.2"
