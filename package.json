@@ -1,0 +1,11 @@
+{
+  "name": "omniroute-deploy",
+  "version": "1.0.0",
+  "description": "OmniRoute AI gateway - Belmo.io deployment",
+  "scripts": {
+    "start": "npx --yes omniroute@latest --port $PORT"
+  },
+  "engines": {
+    "node": ">=22.22.2"
+  }
+}
