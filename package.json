@@ -6,7 +6,7 @@
     "start": "mkdir -p /tmp/.omniroute && HOME=/tmp omniroute --port $PORT"
   },
   "dependencies": {
-    "omniroute": "^3.8.0"
+    "omniroute": "latest"
   },
   "engines": {
     "node": ">=22.22.2"
