@@ -9,6 +9,6 @@
     "omniroute": "latest"
   },
   "engines": {
-    "node": ">=22.22.2"
+    "node": ">=24.0.0 <25"
   }
 }
